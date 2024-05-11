@@ -6,8 +6,8 @@ Check this out [video demonstration](https://www.dropbox.com/scl/fi/6d9z8aix0gbp
 
 ## Description
 
-The IoT based flood detection with Blynk Integration code allows you to monitor distance measurements of water using an ultrasonic sensor connected to an ESP8266 microcontroller.
-The measured distance in both centimeters and inches is displayed on the Blynk app for real-time visualization. Additionally, LEDs and a buzzer provide visual and audible alerts based on predefined distance conditions.
+- The IoT based flood detection with Blynk Integration code allows you to monitor distance measurements of water using an ultrasonic sensor connected to an ESP8266 microcontroller.
+- The measured distance in both centimeters and inches is displayed on the Blynk app for real-time visualization. Additionally, LEDs and a buzzer provide visual and audible alerts based on predefined distance conditions.
 
 ## Hardwares
 - ESP8266 microcontroller
