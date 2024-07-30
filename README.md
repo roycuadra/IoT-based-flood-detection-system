@@ -16,3 +16,6 @@ Check this out [Video Demonstration](https://www.dropbox.com/scl/fi/6d9z8aix0gbp
 - Jumper Wires
 - Breadboard
 - Buzzer
+## License
+
+This project is open-source and available under the MIT License. See the [LICENSE](LICENSE) file for more details.
