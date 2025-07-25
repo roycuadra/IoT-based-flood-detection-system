@@ -1,6 +1,8 @@
-#define BLYNK_TEMPLATE_ID "TMPL6W6xPxCgO"
-#define BLYNK_TEMPLATE_NAME "Sample"
-#define BLYNK_AUTH_TOKEN "0ZbcIx1CBDr1lLtSqXU8ur39IwkGwVlH"
+// Blynk template configuration
+#define BLYNK_TEMPLATE_ID   "TMPL6W6xPxCgO"     // Unique template ID assigned by Blynk
+#define BLYNK_TEMPLATE_NAME "Sample"            // Name of your Blynk project template
+#define BLYNK_AUTH_TOKEN    "0ZbcIx1CBDr1lLtSqXU8ur39IwkGwVlH"  // Auth token for your device
+
 
 #include <Wire.h>
 #include <Adafruit_GFX.h>
