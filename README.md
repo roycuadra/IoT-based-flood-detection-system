@@ -53,7 +53,7 @@ This project is an IoT-based flood detection system using an **ESP8266** microco
 
 ## 🖼️ Circuit Diagram
 
-![Circuit Diagram](image.png)
+![Circuit Diagram](image1.png)
 
 
 ---
