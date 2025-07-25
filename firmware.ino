@@ -3,7 +3,6 @@
 #define BLYNK_TEMPLATE_NAME "Sample"            // Name of your Blynk project template
 #define BLYNK_AUTH_TOKEN    "0ZbcIx1CBDr1lLtSqXU8ur39IwkGwVlH"  // Auth token for your device
 
-
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
@@ -16,12 +15,16 @@
 // Declaration for an SSD1306 display connected to I2C (SDA, SCL pins)
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
-const int trigPin = 12;
-const int echoPin = 14;
-const int buzzerPin = 13;
-const int greenLedPin = 15;
-const int blueLedPin = 2;
-const int redLedPin = 3;
+// Ultrasonic sensor pins
+const int trigPin      = 12;  // Trigger pin of the ultrasonic sensor
+const int echoPin      = 14;  // Echo pin of the ultrasonic sensor
+
+// Output devices
+const int buzzerPin    = 13;  // Buzzer for alerts
+const int greenLedPin  = 15;  // Green LED (e.g., safe status)
+const int blueLedPin   = 2;   // Blue LED (e.g., standby or info)
+const int redLedPin    = 3;   // Red LED (e.g., warning or danger)
+
 
 #define SOUND_SPEED 0.034
 #define CM_TO_INCH 0.393701
