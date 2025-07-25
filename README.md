@@ -1,7 +1,7 @@
 # IoT-based-flood-detection-system
 
 ## Video Demonstration
-Check this out [Video Demonstration](https://www.dropbox.com/scl/fi/6d9z8aix0gbp1qhpmv21a/409693917_863510845313476_5007686960907421415_n.mp4?rlkey=ojz26zqldq43wn1byotfap7xr&st=ifp044dm&dl=0)
+Check this out [Video Demonstration](https://www.tiktok.com/@qubits.io/video/7530842254420774162?is_from_webapp=1&sender_device=pc&web_id=7491002461630400008)
 
 
 ## Description
