@@ -75,8 +75,24 @@ This project is an IoT-based flood detection system using an **ESP8266** microco
    - Add **Label** or **Gauge** widgets  
    - Assign `V1` for **Distance (cm)**  
    - Assign `V2` for **Water Level (%)**
+  
+5. **Copy Credentials**
+- Inside the Device page, go to **Device Info**
+- Copy the following:
+  - `BLYNK_TEMPLATE_ID`
+  - `BLYNK_TEMPLATE_NAME`
+  - `BLYNK_AUTH_TOKEN`
 
-5. **Enable Events (Optional)**  
+6. **Insert into Arduino Code**
+- Paste your credentials into the Arduino sketch:
+
+```cpp
+#define BLYNK_TEMPLATE_ID "YourTemplateID"
+#define BLYNK_TEMPLATE_NAME "YourTemplateName"
+#define BLYNK_AUTH_TOKEN "YourAuthToken"
+```
+
+7. **Enable Events (Optional)**  
    - Go to **Events**  
    - Add `high_water_level`  
    - Use `Blynk.logEvent("high_water_level")` in your code
