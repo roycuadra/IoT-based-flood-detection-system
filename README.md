@@ -2,7 +2,7 @@
 
 > **Updated:** Removing OLED Functionalities
 
-## 🎥 Video Demo
+## Video Demo
 
 Watch it on TikTok: [Video Demonstration](https://www.tiktok.com/@qubits.io/video/7530842254420774162?is_from_webapp=1&sender_device=pc&web_id=7491002461630400008)
 
