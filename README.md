@@ -1,4 +1,4 @@
-# 🚨 IoT-Based Flood Detection System with Blynk and OLED Display
+#  IoT-Based Flood Detection System with Blynk
 
 ## 🎥 Video Demonstration
 
@@ -6,22 +6,22 @@ Check it out on TikTok: [Video Demonstration](https://www.tiktok.com/@qubits.io/
 
 ---
 
-## 📖 Project Description
+## Project Description
 
 This project is an IoT-based flood detection system using an **ESP8266** microcontroller, **ultrasonic sensor**, and **Blynk IoT platform**. It measures water level distance and provides **visual alerts (via OLED & LEDs)** and **audible alerts (via buzzer)**.
 
-### ✨ Features
+### Features
 
-- 📏 **Distance Monitoring** using HC-SR04 (in cm and inches)
-- 📱 **Real-time Data** sent to Blynk using virtual pins `V1` and `V2`
-- 📺 **OLED Display** for local visualization of distance
-- 🔴🔵🟢 **LED Indicators** for water level thresholds
-- 🔊 **Buzzer Alarm** when water level is dangerously high
-- ☁️ **Cloud Logging** via Blynk `logEvent("high_water_levels")`
+- **Distance Monitoring** using HC-SR04 (in cm and inches)
+- **Real-time Data** sent to Blynk using virtual pins `V1` and `V2`
+- **OLED Display** for local visualization of distance
+- **LED Indicators** for water level thresholds
+- **Buzzer Alarm** when water level is dangerously high
+- **Cloud Logging** via Blynk `logEvent("high_water_levels")`
 
 ---
 
-## 🧰 Hardware Components
+## Hardware Components
 
 | Component                | Description                        |
 |--------------------------|------------------------------------|
@@ -36,7 +36,7 @@ This project is an IoT-based flood detection system using an **ESP8266** microco
 
 ---
 
-## 🔌 Pin Connections
+## Pin Connections
 
 | Component      | Pin Label | ESP8266 GPIO | NodeMCU Pin |
 |----------------|-----------|--------------|-------------|
@@ -51,13 +51,13 @@ This project is an IoT-based flood detection system using an **ESP8266** microco
 
 ---
 
-## 🖼️ Circuit Diagram
+## Circuit Diagram
 
 ![Circuit Diagram](image1.png)
 
 
 ---
-## 📱 Blynk Setup Tutorial
+## Blynk Setup Tutorial
 
 1. **Download the Blynk IoT App** (Android/iOS)
 
@@ -97,7 +97,7 @@ This project is an IoT-based flood detection system using an **ESP8266** microco
    - Add `high_water_level`  
    - Use `Blynk.logEvent("high_water_level")` in your code
 
-## 🧰 Library Installation
+## Library Installation
 
 In the Arduino IDE:
 
@@ -108,7 +108,7 @@ In the Arduino IDE:
    - `Adafruit SSD1306`
    - `Adafruit GFX`
 
-## 🔌 Uploading the Code
+## Uploading the Code
 
 1. Connect your ESP8266 to your computer via USB.
 2. Open the `.ino` sketch and make sure you've inserted:
@@ -117,20 +117,12 @@ In the Arduino IDE:
 3. Click **Upload**.
 4. Open the **Serial Monitor** at `115200` baud to verify connection to Wi-Fi and Blynk.
 
-## 📊 Viewing Data on Blynk Dashboard
+## Viewing Data on Blynk Dashboard
 
 - Use your **Web or Mobile Dashboard** to see real-time:
   - Distance in centimeters (`V1`)
   - Water level percentage (`V2`)
 - (Optional) Set up alerts for `high_water_level` in Blynk console
-  
-## ✅ Result
-
-You now have a live flood detection system that:
-- Displays data on an OLED screen
-- Sends real-time data to Blynk IoT platform
-- Alerts you when water reaches dangerous levels (optional)
-  
 ---
 
 ## 📜 License
