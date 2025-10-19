@@ -26,8 +26,9 @@ This is an IoT-based flood detection system using **ESP8266**, **HC-SR04 ultraso
 This project is intended for educational and prototyping purposes only.
 It should not be relied upon as a primary flood warning system for life safety or property protection.
 
-The creators are not responsible for any damage, loss, or injury that may result from the use of this project.
 Always use certified and government-approved flood detection/alert systems in real-world applications.
+
+The creators are not responsible for any damage, loss, or injury that may result from the use of this project.
 
 ---
 
