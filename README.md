@@ -28,7 +28,7 @@ It should not be relied upon as a primary flood warning system for life safety o
 
 Always use certified and government-approved flood detection/alert systems in real-world applications.
 
-The creators are not responsible for any damage, loss, or injury that may result from the use of this project.
+The Author are not responsible for any damage, loss, or injury that may result from the use of this project.
 
 ---
 
@@ -44,6 +44,12 @@ The creators are not responsible for any damage, loss, or injury that may result
 | 220Ω Resistors (x3)       | LED current-limiting           |
 | Jumper Wires              | Connections                    |
 | Breadboard                | Prototyping                    |
+
+---
+
+## Circuit Diagram 
+
+![Circuit diagram screenshot](./img/diagram.png)
 
 ---
 
@@ -110,7 +116,20 @@ char pass[] = "YourWiFiPassword";
 * Monitor **V1** (cm) & **V2** (inches) on Blynk dashboard
 * Optional: set alerts for `high_water_levels`
 
+---
 
-## 📜 License
+## License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for full details.
+
+--- 
+
+## Author
+
+- Created with passion ❤ by: **Roy Cuadra**
+- Updated Date: 10-24-2025
+
+---
+
+**Thank you for checking out this project!** 
+You are welcome to **fork**, **improve**, or **use** it for learning purposes.

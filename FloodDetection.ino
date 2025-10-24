@@ -2,7 +2,6 @@
  * Project: Flood Detection with Blynk
  * Author: Roy Cuadra
  * Date: 08/24/2025
- * NO OLED VERSION
  ***************************************************/
 
 // --- Blynk Template Configuration ---
@@ -10,11 +9,12 @@
 #define BLYNK_TEMPLATE_NAME "Flood Detection"
 #define BLYNK_AUTH_TOKEN    "Your_Blynk_Auth_Token"  // <--- Replace with your token from Blynk app
 
+#include <BlynkSimpleEsp8266.h>
+#include <ESP8266WiFi.h>
+
 char ssid[] = "Your_WiFi_Name";       // <-- Replace with your WiFi SSID
 char pass[] = "Your_WiFi_Password";   // <-- Replace with your WiFi Password
 
-#include <BlynkSimpleEsp8266.h>
-#include <ESP8266WiFi.h>
 
 const int trigPin      = 12;  // D6  -> Ultrasonic Trigger
 const int echoPin      = 14;  // D5  -> Ultrasonic Echo
@@ -133,7 +133,7 @@ void loop() {
   delay(50); 
 }
 
-// --- Send distance to Blynk ---
+// --- Send Data distance to Blynk ---
 void sendDistanceToBlynk() {
   if (Blynk.connected()) {
     Blynk.virtualWrite(V1, distanceCm);
